@@ -1,0 +1,23 @@
+
+ext {
+
+    android = [compileSdkVersion: 23,
+               buildToolsVersion: "23.0.1",
+               applicationId    : "yf.com.yf_b2c",
+               minSdkVersion    : 14,
+               targetSdkVersion : 22,
+               versionCode      : 1,
+               versionName      : "1.0.0"]
+
+    dependencies = ["appcompat-v7"        : "com.android.support:appcompat-v7:24.2.1",
+                    "recyclerview-v7"     : "com.android.support:recyclerview-v7:23.3.0",
+                    "butterknife-compiler": "com.jakewharton:butterknife-compiler:8.4.0",
+                    "butterknife"         : "com.jakewharton:butterknife:8.4.0",
+                    "rxandroid"           : "io.reactivex:rxandroid:1.2.1",
+                    "rxjava"              : "io.reactivex:rxjava:1.1.6",
+                    "timber"              : "com.jakewharton.timber:timber:4.3.1",
+                    "retrofit"            : "com.squareup.retrofit2:retrofit:2.1.0",
+                    "converter-gson"      : "com.squareup.retrofit2:converter-gson:2.1.0",
+                    "adapter-rxjava"      : "com.squareup.retrofit2:adapter-rxjava:2.1.0",
+                    "gson"                :"com.google.code.gson:gson:2.7"]
+}

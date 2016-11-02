@@ -1,0 +1,10 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="600dp"
+    android:height="600dp"
+    android:viewportHeight="512"
+    android:viewportWidth="512">
+
+    <path android:fillColor="#410a0a0a"
+        android:pathData="@string/pretty_girl"/>
+
+</vector>
