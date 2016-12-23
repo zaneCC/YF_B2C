@@ -21,6 +21,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".user.activity.UserActivity"/>
+        <activity android:name=".user.activity.UserActivity"/>
     </application>
 
 </manifest>
